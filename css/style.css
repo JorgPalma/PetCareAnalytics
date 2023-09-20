@@ -246,3 +246,26 @@ input[type=number]:focus,
     height: 2px;
     background: var(--naranjo);
 }
+
+footer {
+    background: var(--azul);
+    height: 35vh;
+}
+
+.op-footer-ul{
+    list-style:none;
+}
+
+.op-footer-a{
+    color: white;
+    display: inline-block;
+    font-family: var(--quicksans);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.op-footer-bar {
+    background: white;
+    width: 100%;
+    height: 1px;
+}
