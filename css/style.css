@@ -17,7 +17,7 @@
 
 header {
     max-height: 15vh;
-    height: 15vh;
+    height: auto;
 }
 
 nav {
@@ -168,7 +168,7 @@ input[type=number]:focus,
 
 .op-nosotros {
     background: var(--azul);
-    height: 135vh;
+    height: auto;
 }
 
 .op-nosotros-title {
@@ -200,8 +200,36 @@ input[type=number]:focus,
     font-family: var(--opensans);
 }
 
+.op-nosotros-ng {
+    background: white;
+    height: auto;
+}
+
+.op-nosotros-title-ng {
+    color: var(--azul);
+    font-size: 50px;
+    font-family: var(--quicksans);
+    font-weight: bolder;
+}
+
+.op-nosotros-p-ng{
+    color: var(--azul);
+    font-family: var(--opensans);
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.op-nosotros-span-ng {
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--azul);
+    font-family: var(--opensans);
+}
+
 .op-destacados {
     background: #e2e2e2;
+    height: auto;
 }
 
 .op-blog-title {
@@ -249,7 +277,7 @@ input[type=number]:focus,
 
 footer {
     background: var(--azul);
-    height: 35vh;
+    height: 45vh;
 }
 
 .op-footer-ul{
@@ -268,4 +296,21 @@ footer {
     background: white;
     width: 100%;
     height: 1px;
+}
+
+
+.op-footer-link-ul{
+    list-style: none;
+}
+
+.op-footer-link-a{
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    background: white;
+    color: var(--azul);
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
 }
