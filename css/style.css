@@ -314,3 +314,82 @@ footer {
     font-size: 20px;
     text-decoration: none;
 }
+
+.op-img-nosotros {
+    display: inline-block;
+    width: 60%;
+    margin: 5% 20%;
+}
+
+.op-botonera {
+
+    list-style: none;
+    height: auto;
+}
+
+.op-botonera-link {
+    text-decoration: none;
+    font-family: var(--quicksans);
+    font-size: 16px;
+    color: var(--azul);
+    width: 15%;
+    background: #54d2d2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.op-col-contacto {
+    padding: 0;
+    margin: 0;
+}
+
+.op-contact-form {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.op-contact-form label {
+    width: 5%;
+    text-align: center;
+    border: 2px solid var(--azul);
+    border-radius: 8px 0px 0px 8px;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    color: var(--azul);
+    font-size: 20px;
+}
+
+
+.op-contact-form input{
+    height: 50px;
+    width: 94%;
+    padding-left: 5px;
+    margin: 0;
+    font-family:var(--quicksans);
+    border: 2px solid var(--azul);
+    border-radius: 0px 8px 8px 0px;
+    margin-bottom: 20px;
+}
+
+.op-contact-form input:focus{
+    font-family:var(--quicksans);
+    border: 2px solid var(--azul);
+    border-radius: 0px 8px 8px 0px;
+    outline: 1px solid var(--azul);
+}
+
+.op-contact-form textarea {
+    height: 250px;
+    width: 94%;
+    padding-left: 5px;
+    margin: 0;
+    font-family:var(--quicksans);
+    border: 2px solid var(--azul);
+    border-radius: 0px 8px 8px 0px;
+    margin-bottom: 20px;
+    resize: none;
+}
