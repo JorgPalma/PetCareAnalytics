@@ -24,28 +24,6 @@ function  Api_con_axios(){
     })
 }
 
+
 Api_con_axios();
-
-
-let noti2 = document.getElementById('theimage');
-
-function  Api_con_axios2(){
-    axios({
-        method: 'GET',
-        url: 'https://gnews.io/api/v4/search?q=animal&country=es&apikey=d5db65676f8d2a1ad2bacf863839a8f9'
-    }).then(res => {
-        let noticias2 = res.data.articles;
-        console.log(noticias2);
-        noticias2.map((elemento)=>{
-            let div = document.createElement('div');
-            div.innerHTML = `<img style= 'max-width:600px'; src=${elemento.image}`;
-        
-            noti2.appendChild(div);
-        })
-    })
-}
-
-Api_con_axios2();
-
-
 
