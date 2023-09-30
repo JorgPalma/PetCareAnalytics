@@ -3,7 +3,8 @@ let noti = document.getElementById('news');
 function  Api_con_axios(){
     axios({
         method: 'GET',
-        url: 'https://gnews.io/api/v4/search?q=animal&country=es&apikey=d5db65676f8d2a1ad2bacf863839a8f9'
+        url: 'https://gnews.io/api/v4/search?q=animal&country=es&apikey=5d4c96acf6f182b045ac8bcaee0ee580'
+        /*5d4c96acf6f182b045ac8bcaee0ee580 */
     }).then(res => {
         let noticias = res.data.articles;
         console.log(noticias);
