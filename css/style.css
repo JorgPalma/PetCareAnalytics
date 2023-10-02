@@ -264,7 +264,21 @@ input[type=number]:focus,
 
 .op-post-title {
     color: var(--azul);
+    font-size: 35px;
+    font-family: var(--quicksans);
+    font-weight: bolder;
+}
+
+.op-post-title2 {
+    color: var(--azul);
     font-size: 20px;
+    font-family: var(--quicksans);
+    font-weight: bolder;
+}
+
+.op-post-title2time {
+    color: var(--azul);
+    font-size: 18px;
     font-family: var(--quicksans);
     font-weight: bolder;
 }
